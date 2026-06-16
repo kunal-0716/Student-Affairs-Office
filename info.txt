@@ -1,0 +1,29 @@
+scroll down animation like iitb student affairs website... https://dosa.iitb.ac.in/home
+add social media handles if available...
+link for iitp official website
+statistics.. number of students hostels, mess, warders..
+
+Sections: 
+* Home                                                              done
+* About Student Affairs Office                                      done
+* Vision & Mission                                                  done
+* Key Responsibilities                                              done
+* Student Welfare
+* Campus Life Showcase
+* Major Initiatives
+* Meet the Team                                                     done
+* Photo Gallery 15/06                                               done(seperate page remaining)
+* Resources & Support                                               done
+* Contact Information                                               done
+* FAQ - 15/06                                                       done
+* Footer with Quick Links and Emergency Contacts                    done
+
+NavBar- Home About Studentwelfare CampusLife Resources FAQ Contact
+
+Contact section will be in footer
+
+improvements:- 
+increase font type and size in the NavBar
+add welcome to.. 
+Resources code of conduct 
+hostel rulebook

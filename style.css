@@ -1,0 +1,186 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(224, 231, 238) ; 
+    
+}
+section{
+    scroll-margin-top: 80px;
+}
+
+nav{
+    background-color:rgb(185, 191, 196) ;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+
+}
+#homeContent{
+    margin-top: 8px;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+
+
+#homeHeading{
+    font-family: "Montserrat", sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+}
+
+#homeHeading2{
+    font-family: "Inter", sans-serif;
+    font-size: 40px;
+}
+.home-image{
+   
+    border-radius: 10px;
+}
+
+.home-about{
+    border-left: 2px solid black;
+}
+
+.focus-card{
+    background:#f5f7fa;
+    border-radius:30px;
+    padding:25px;
+    height:100%;
+    transition:0.3s;
+}
+
+.focus-card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 15px 30px rgba(0,0,0,0.08);
+}
+
+.icon-box{
+    width:60px;
+    height:60px;
+    border-radius:20px;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.icon-box i{
+    font-size:32px;
+}
+
+.icon-blue{
+    background:#dce8ff;
+    color:#2563eb;
+}
+
+.icon-purple{
+    background:#eadcff;
+    color:#9333ea;
+}
+
+.icon-yellow{
+    background:#fff3c4;
+    color:#ca8a04;
+}
+
+.icon-green{
+    background:#d9f7e8;
+    color:#16a34a;
+}
+
+.card-title{
+    margin-top:25px;
+    font-size:1.7rem;
+    font-weight:700;
+}
+
+.card-text{
+    margin-top:15px;
+    color:#555;
+    line-height:1.8;
+}
+
+.dean-card{
+    width: 26rem;
+}
+
+.staff-card{
+    width: 22rem;
+}
+
+footer{
+    background-color: #243447;
+    color: white;
+}
+.footer-links li{
+    margin-bottom: 12px;
+}
+.footer-links a{
+    color: #9ccaff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: white;
+}
+
+
+
+.responsibility-card{
+    background: #ffffff;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    min-height: 140px;
+}
+
+.responsibility-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.responsibility-card h5{
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+
+.welfare-item{
+    padding: 20px;
+    border-radius: 12px;
+    transition: 0.3s;
+}
+
+.welfare-item:hover{
+    background-color: #f8f9fa;
+    transform: translateY(-5px);
+}
+
+.welfare-icon{
+    font-size: 2.5rem;
+    color: #0d6efd;
+    margin-right: 20px;
+}
+
+.initiative-img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+
+    border-radius: 15px;
+
+    transition: all 0.4s ease;
+}
+
+.initiative-img:hover{
+    transform: scale(1.03);
+}
+
+.initiative-content{
+    transition: all 0.3s ease;
+}
+
+.initiative-content:hover{
+    transform: translateY(-5px);
+}

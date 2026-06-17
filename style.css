@@ -184,3 +184,42 @@ footer{
 .initiative-content:hover{
     transform: translateY(-5px);
 }
+
+.gallery-item{
+    position: relative;
+    overflow: hidden;
+    border-radius: 12px;
+
+    box-shadow: 0 8px 25px rgba(0,0,0,0.18);
+}
+
+.gallery-img{
+    width: 100%;
+    height: 260px;
+    object-fit: cover;
+    transition: 0.4s;
+}
+
+.gallery-overlay{
+    position: absolute;
+    left: 0;
+    bottom: -60px;
+    width: 100%;
+
+    background: rgba(0,0,0,0.75);
+    color: white;
+
+    padding: 15px;
+    text-align: center;
+    font-weight: 600;
+
+    transition: 0.3s;
+}
+
+.gallery-item:hover .gallery-overlay{
+    bottom: 0;
+}
+
+.gallery-item:hover .gallery-img{
+    transform: scale(1.05);
+}

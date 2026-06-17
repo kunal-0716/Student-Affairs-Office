@@ -27,3 +27,25 @@ increase font type and size in the NavBar
 add welcome to.. 
 Resources code of conduct 
 hostel rulebook
+
+HOME
+↓
+ABOUT
+↓
+KEY RESPONSIBILITIES
+↓
+STUDENT WELFARE
+↓
+MAJOR INITIATIVES
+↓
+PHOTO GALLERY / CAMPUS LIFE
+↓
+MEET THE TEAM
+
+↓
+FAQ
+↓
+FOOTER
+
+for mobile device.
+in navbar- IIT Patna will be below Student Affairs Office. 

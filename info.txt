@@ -49,3 +49,5 @@ FOOTER
 
 for mobile device.
 in navbar- IIT Patna will be below Student Affairs Office. 
+
+social media links in footer

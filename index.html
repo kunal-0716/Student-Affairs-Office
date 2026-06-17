@@ -15,11 +15,24 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
         <div class="container">
 
-            <a class="navbar-brand" href="#"><img src="Assets/image.png" style="height: 40px;"></a>
-            <a class="navbar-brand" href="#" style="font-weight: bold;">Student Affairs Office- IIT Patna</a>
+            <a class="navbar-brand d-flex align-items-center" href="#">
+    
+    <img src="Assets/image.png" alt="Logo" style="height:50px;" class="me-3">
+
+    <div>
+        <div class="fw-bold fs-4" style="margin-bottom: 0; padding-bottom: 0;">
+            Student Affairs Office
+        </div>
+
+        <div class="text-secondary small" style="margin-bottom: 0; padding-bottom: 0;">
+            IIT PATNA
+        </div>
+    </div>
+
+</a>
 
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -34,7 +47,7 @@
 
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
+                        <a class="nav-link" aria-current="page" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#about">About</a>
@@ -61,7 +74,7 @@
         </div>
     </nav>
 
-    <section class="hero my-5" id="home">
+    <section class="hero py-5" id="home">
         <div class="container">
             <div class="row align-items-center">
 
@@ -78,7 +91,7 @@
 
 
                 <div class="col-lg-5">
-                    <div id="carouselExampleCaptions" class="carousel slide">
+                    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                         <div class="carousel-indicators">
                             <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
                                 class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -91,20 +104,20 @@
                             <div class="carousel-item active">
                                 <img src="Assets/IITP.jpg" class="d-block w-100 home-image" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>First slide label</h5>
+                                    <h5 id="crousel-id">Main Building</h5>
 
                                 </div>
                             </div>
                             <div class="carousel-item home-image">
                                 <img src="Assets/hero-1.jpg" class="d-block w-100 home-image" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Second slide label</h5>
+                                    <h5 id="crousel-id">Gate 1</h5>
                                 </div>
                             </div>
                             <div class="carousel-item">
                                 <img src="Assets/image13.jpg" class="d-block w-100 home-image" alt="...">
                                 <div class="carousel-caption d-none d-md-block">
-                                    <h5>Third slide label</h5>
+                                    <h5 id="crousel-id">Central Library</h5>
 
                                 </div>
                             </div>
@@ -126,7 +139,7 @@
         </div>
     </section>
 
-    <section id="about" class="my-5">
+    <section id="about" class="py-5">
 
         <div class="container">
             <h2 class="text-center fw-bold display-5 mb-3">
@@ -321,7 +334,7 @@
 
     </section>
 
-    <section id="responsibilities" class="my-5">
+    <section id="responsibilities" class="py-5">
 
         <div class="container">
             <h2 class="text-center fw-bold display-5 mb-3">
@@ -465,302 +478,273 @@
         </div>
     </section>
 
-    <section id="student_welfare" class="container my-5">
+    <section id="student_welfare" class="py-5">
 
-        <h2 class="text-center fw-bold display-5 mb-3">
-            Student Welfare
-        </h2>
+        <div class="container">
+            <h2 class="text-center fw-bold display-5 mb-3">
+                Student Welfare
+            </h2>
 
-        <p class="text-center text-muted mb-5">
-            Supporting students through initiatives that promote
-            well-being, inclusion, safety, and personal growth.
-        </p>
+            <p class="text-center text-muted mb-5">
+                Supporting students through initiatives that promote
+                well-being, inclusion, safety, and personal growth.
+            </p>
 
-        <div class="row">
+            <div class="row">
 
-            <!-- Welfare 1 -->
-            <div class="col-lg-6 mb-4">
-                <div class="d-flex welfare-item">
+                <!-- Welfare 1 -->
+                <div class="col-lg-6 mb-4">
+                    <div class="d-flex welfare-item">
 
-                    <i class="bi bi-mortarboard-fill welfare-icon"></i>
+                        <i class="bi bi-mortarboard-fill welfare-icon"></i>
 
-                    <div>
-                        <h5>Scholarships & Financial Aid</h5>
+                        <div>
+                            <h5>Scholarships & Financial Aid</h5>
 
-                        <p class="text-muted mb-0">
-                            Supporting students through institutional and
-                            external scholarship opportunities.
-                        </p>
+                            <p class="text-muted mb-0">
+                                Supporting students through institutional and
+                                external scholarship opportunities.
+                            </p>
+                        </div>
+
                     </div>
-
                 </div>
-            </div>
 
-            <!-- Welfare 2 -->
-            <div class="col-lg-6 mb-4">
-                <div class="d-flex welfare-item">
+                <!-- Welfare 2 -->
+                <div class="col-lg-6 mb-4">
+                    <div class="d-flex welfare-item">
 
-                    <i class="bi bi-heart-pulse-fill welfare-icon"></i>
+                        <i class="bi bi-heart-pulse-fill welfare-icon"></i>
 
-                    <div>
-                        <h5>Counselling & Well-being</h5>
+                        <div>
+                            <h5>Counselling & Well-being</h5>
 
-                        <p class="text-muted mb-0">
-                            Providing counselling services and promoting
-                            mental health awareness across campus.
-                        </p>
+                            <p class="text-muted mb-0">
+                                Providing counselling services and promoting
+                                mental health awareness across campus.
+                            </p>
+                        </div>
+
                     </div>
-
                 </div>
-            </div>
 
-            <!-- Welfare 3 -->
-            <div class="col-lg-6 mb-4">
-                <div class="d-flex welfare-item">
+                <!-- Welfare 3 -->
+                <div class="col-lg-6 mb-4">
+                    <div class="d-flex welfare-item">
 
-                    <i class="bi bi-house-door-fill welfare-icon"></i>
+                        <i class="bi bi-house-door-fill welfare-icon"></i>
 
-                    <div>
-                        <h5>Hostel & Residential Support</h5>
+                        <div>
+                            <h5>Hostel & Residential Support</h5>
 
-                        <p class="text-muted mb-0">
-                            Ensuring a comfortable and supportive
-                            residential experience for students.
-                        </p>
+                            <p class="text-muted mb-0">
+                                Ensuring a comfortable and supportive
+                                residential experience for students.
+                            </p>
+                        </div>
+
                     </div>
-
                 </div>
-            </div>
 
-            <!-- Welfare 4 -->
-            <div class="col-lg-6 mb-4">
-                <div class="d-flex welfare-item">
+                <!-- Welfare 4 -->
+                <div class="col-lg-6 mb-4">
+                    <div class="d-flex welfare-item">
 
-                    <i class="bi bi-chat-left-text-fill welfare-icon"></i>
+                        <i class="bi bi-chat-left-text-fill welfare-icon"></i>
 
-                    <div>
-                        <h5>Grievance Redressal</h5>
+                        <div>
+                            <h5>Grievance Redressal</h5>
 
-                        <p class="text-muted mb-0">
-                            Facilitating fair and timely resolution of
-                            student concerns and grievances.
-                        </p>
+                            <p class="text-muted mb-0">
+                                Facilitating fair and timely resolution of
+                                student concerns and grievances.
+                            </p>
+                        </div>
+
                     </div>
-
                 </div>
-            </div>
 
+            </div>
         </div>
-
-    </section>
-    <section id="initiatives" class="container my-5">
-
-        <h2 class="text-center fw-bold display-5 mb-3">
-            Major Initiatives
-        </h2>
-
-        <p class="text-center text-muted mb-5">
-            Key programs and initiatives aimed at fostering student growth,
-            well-being, leadership, and campus engagement.
-        </p>
-
-        <!-- Initiative 1 -->
-        <div class="row align-items-center my-5">
-
-            <div class="col-lg-6 initiative-content">
-                <h3 class="fw-bold mb-3">
-                    Student Leadership Development
-                </h3>
-
-                <p class="text-muted">
-                    The Student Affairs Office encourages leadership and teamwork
-                    through workshops, student councils, mentorship programs,
-                    and various student-led initiatives. These opportunities help
-                    students build confidence, communication skills, and
-                    organizational abilities.
-                </p>
-            </div>
-
-            <div class="col-lg-6">
-                <img src="Assets/leadership.jpeg" class="img-fluid initiative-img shadow" alt="Leadership Program">
-            </div>
-
-        </div>
-
-        <!-- Initiative 2 -->
-        <div class="row align-items-center my-5">
-
-            <div class="col-lg-6 order-lg-1 order-2">
-                <img src="Assets/mental-health.jpg" style="object-position: center 15%;"
-                    class="img-fluid initiative-img shadow" alt="Mental Health">
-            </div>
-
-            <div class="col-lg-6 order-lg-2 order-1 initiative-content">
-                <h3 class="fw-bold mb-3">
-                    Wellness & Mental Health Awareness
-                </h3>
-
-                <p class="text-muted">
-                    Through counselling services, awareness campaigns, wellness
-                    sessions, and support programs, the office promotes emotional
-                    well-being and encourages students to maintain a healthy
-                    balance between academic and personal life.
-                </p>
-            </div>
-
-        </div>
-
-    </section>
-    <section id="gallery" class="container my-5">
-
-        <h2 class="text-center fw-bold display-5 mb-3">
-            Photo Gallery
-        </h2>
-
-        <p class="text-center text-muted mb-5">
-            Explore highlights from student events, cultural activities,
-            leadership programs, and campus celebrations.
-        </p>
-
-        <div class="row g-4">
-
-            <div class="col-lg-4 col-md-6">
-
-                <div class="gallery-item">
-                    <img src="Assets/gallery/gallery1.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
-                    <div class="gallery-overlay">
-                        Hostels
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="gallery-item">
-                    <img src="Assets/gallery/gallery2.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
-                    <div class="gallery-overlay">
-                        Cultural Event
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="gallery-item">
-                    <img src="Assets/gallery/gallery3.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
-                    <div class="gallery-overlay">
-                        Labs
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="gallery-item">
-                    <img src="Assets/gallery/gallery4.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
-                    <div class="gallery-overlay">
-                        Badminton Court
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="gallery-item">
-                    <img src="Assets/gallery/gallery5.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
-                    <div class="gallery-overlay">
-                        Lecture Hall
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-                <div class="gallery-item">
-                    <img src="Assets/gallery/gallery6.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
-                    <div class="gallery-overlay">
-                        Computer Center
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <div class="text-center mt-5">
-            <a href="gallery.html" target="_blank" class="btn btn-primary">
-                View More Photos
-            </a>
-        </div>
-
     </section>
 
-    <section id="team" class="container my-5">
-        <h2 class="text-center fw-bold display-5 mb-3">
-            Meet the team
-        </h2>
+    <section id="initiatives" class="py-5">
 
-        <p class="text-center text-muted mb-5">
-            Dedicated professionals committed to enhancing
-            student welfare, engagement, and development
-            at IIT Patna.
-        </p>
-        <div class="d-flex justify-content-center mb-5">
+        <div class="container">
+            <h2 class="text-center fw-bold display-5 mb-3">
+                Major Initiatives
+            </h2>
 
-            <div class="card shadow-sm" style="width: 26rem;">
+            <p class="text-center text-muted mb-5">
+                Key programs and initiatives aimed at fostering student growth,
+                well-being, leadership, and campus engagement.
+            </p>
 
-                <img src="Assets/Team/DeanSA.jpg" class="card-img-top" style="height: 350px; object-fit: cover;"
-                    alt="Dean">
+            <!-- Initiative 1 -->
+            <div class="row align-items-center my-5">
 
-                <div class="card-body text-center py-3">
+                <div class="col-lg-6 initiative-content">
+                    <h3 class="fw-bold mb-3">
+                        Student Leadership Development
+                    </h3>
 
-                    <h4 class="card-title mb-1">
-                        Prof. Jimson Mathew
-                    </h4>
-
-                    <p class="text-primary fw-semibold mb-2">
-                        Dean, Student Affairs
+                    <p class="text-muted">
+                        The Student Affairs Office encourages leadership and teamwork
+                        through workshops, student councils, mentorship programs,
+                        and various student-led initiatives. These opportunities help
+                        students build confidence, communication skills, and
+                        organizational abilities.
                     </p>
+                </div>
 
-                    <p class="mb-1">
-                        <i class="bi bi-telephone"></i>
-                        0612-302-8300
-                    </p>
-
-                    <p class="mb-0">
-                        <i class="bi bi-envelope"></i>
-                        <a href="mailto:dean.sa@iitp.ac.in">
-                            dean.sa@iitp.ac.in
-                        </a>
-                    </p>
-
+                <div class="col-lg-6">
+                    <img src="Assets/leadership.jpeg" class="img-fluid initiative-img shadow" alt="Leadership Program">
                 </div>
 
             </div>
 
+            <!-- Initiative 2 -->
+            <div class="row align-items-center my-5">
+
+                <div class="col-lg-6 order-lg-1 order-2">
+                    <img src="Assets/mental-health.jpg" style="object-position: center 15%;"
+                        class="img-fluid initiative-img shadow" alt="Mental Health">
+                </div>
+
+                <div class="col-lg-6 order-lg-2 order-1 initiative-content">
+                    <h3 class="fw-bold mb-3">
+                        Wellness & Mental Health Awareness
+                    </h3>
+
+                    <p class="text-muted">
+                        Through counselling services, awareness campaigns, wellness
+                        sessions, and support programs, the office promotes emotional
+                        well-being and encourages students to maintain a healthy
+                        balance between academic and personal life.
+                    </p>
+                </div>
+
+            </div>
         </div>
-        <div class="row justify-content-center g-4">
+    </section>
 
-            <!-- Staff 1 -->
-            <div class="col-auto">
+    <section id="gallery" class="py-5">
 
-                <div class="card shadow-sm" style="width: 22rem;">
+        <div class="container">
+            <h2 class="text-center fw-bold display-5 mb-3">
+                Photo Gallery
+            </h2>
 
-                    <img src="Assets/Team/Person1.png" class="card-img-top" style="height: 320px; object-fit: cover;"
-                        alt="Staff">
+            <p class="text-center text-muted mb-5">
+                Explore highlights from student events, cultural activities,
+                leadership programs, and campus celebrations.
+            </p>
 
-                    <div class="card-body text-center">
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+
+                    <div class="gallery-item">
+                        <img src="Assets/gallery/gallery1.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
+                        <div class="gallery-overlay">
+                            Hostels
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <img src="Assets/gallery/gallery2.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
+                        <div class="gallery-overlay">
+                            Cultural Event
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <img src="Assets/gallery/gallery3.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
+                        <div class="gallery-overlay">
+                            Labs
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <img src="Assets/gallery/gallery4.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
+                        <div class="gallery-overlay">
+                            Badminton Court
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <img src="Assets/gallery/gallery5.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
+                        <div class="gallery-overlay">
+                            Lecture Hall
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="gallery-item">
+                        <img src="Assets/gallery/gallery6.jpg" class="img-fluid rounded shadow-sm gallery-img" alt="">
+                        <div class="gallery-overlay">
+                            Computer Center
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="text-center mt-5">
+                <a href="gallery.html" target="_blank" class="btn btn-primary">
+                    View More Photos
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="team" class="py-5">
+
+        <div class="container">
+            <h2 class="text-center fw-bold display-5 mb-3">
+                Meet the team
+            </h2>
+
+            <p class="text-center text-muted mb-5">
+                Dedicated professionals committed to enhancing
+                student welfare, engagement, and development
+                at IIT Patna.
+            </p>
+            <div class="d-flex justify-content-center mb-5">
+
+                <div class="card shadow-sm" style="width: 26rem;">
+
+                    <img src="Assets/Team/DeanSA.jpg" class="card-img-top" style="height: 350px; object-fit: cover;"
+                        alt="Dean">
+
+                    <div class="card-body text-center py-3">
 
                         <h4 class="card-title mb-1">
-                            Mr. Ajay Kumar
+                            Prof. Jimson Mathew
                         </h4>
 
-                        <p class="fw-bold text-primary mb-2">
-                            TECH. SUPT.
+                        <p class="text-primary fw-semibold mb-2">
+                            Dean, Student Affairs
                         </p>
 
                         <p class="mb-1">
-                            <i class="bi bi-telephone"></i> 8354
+                            <i class="bi bi-telephone"></i>
+                            0612-302-8300
                         </p>
 
                         <p class="mb-0">
                             <i class="bi bi-envelope"></i>
-                            <a href="mailto:aksharma@iitp.ac.in">
-                                aksharma@iitp.ac.in
+                            <a href="mailto:dean.sa@iitp.ac.in">
+                                dean.sa@iitp.ac.in
                             </a>
                         </p>
 
@@ -769,228 +753,276 @@
                 </div>
 
             </div>
+            <div class="row justify-content-center g-4">
 
-            <!-- Staff 2 -->
-            <div class="col-auto">
+                <!-- Staff 1 -->
+                <div class="col-auto">
 
-                <div class="card shadow-sm" style="width: 22rem;">
+                    <div class="card shadow-sm" style="width: 22rem;">
 
-                    <img src="Assets/Team/Person2.png" class="card-img-top" style="height: 320px; object-fit: cover;"
-                        alt="Staff">
+                        <img src="Assets/Team/Person1.png" class="card-img-top"
+                            style="height: 320px; object-fit: cover;" alt="Staff">
 
-                    <div class="card-body text-center">
+                        <div class="card-body text-center">
 
-                        <h4 class="card-title mb-1">
-                            Mr. Abhishek Dixit
-                        </h4>
+                            <h4 class="card-title mb-1">
+                                Mr. Ajay Kumar
+                            </h4>
 
-                        <p class="fw-bold text-primary mb-2">
-                            TECH. SUPT.
-                        </p>
+                            <p class="fw-bold text-primary mb-2">
+                                TECH. SUPT.
+                            </p>
 
-                        <p class="mb-1">
-                            <i class="bi bi-telephone"></i> 8723
-                        </p>
+                            <p class="mb-1">
+                                <i class="bi bi-telephone"></i> 8354
+                            </p>
 
-                        <p class="mb-0">
-                            <i class="bi bi-envelope"></i>
-                            <a href="mailto:adixit@iitp.ac.in">
-                                adixit@iitp.ac.in
-                            </a>
-                        </p>
+                            <p class="mb-0">
+                                <i class="bi bi-envelope"></i>
+                                <a href="mailto:aksharma@iitp.ac.in">
+                                    aksharma@iitp.ac.in
+                                </a>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Staff 2 -->
+                <div class="col-auto">
+
+                    <div class="card shadow-sm" style="width: 22rem;">
+
+                        <img src="Assets/Team/Person2.png" class="card-img-top"
+                            style="height: 320px; object-fit: cover;" alt="Staff">
+
+                        <div class="card-body text-center">
+
+                            <h4 class="card-title mb-1">
+                                Mr. Abhishek Dixit
+                            </h4>
+
+                            <p class="fw-bold text-primary mb-2">
+                                TECH. SUPT.
+                            </p>
+
+                            <p class="mb-1">
+                                <i class="bi bi-telephone"></i> 8723
+                            </p>
+
+                            <p class="mb-0">
+                                <i class="bi bi-envelope"></i>
+                                <a href="mailto:adixit@iitp.ac.in">
+                                    adixit@iitp.ac.in
+                                </a>
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+                <!-- Staff 3 -->
+                <div class="col-auto">
+
+                    <div class="card shadow-sm" style="width: 22rem;">
+
+                        <img src="Assets/Team/Person3.png" class="card-img-top"
+                            style="height: 320px; object-fit: cover;" alt="Staff">
+
+                        <div class="card-body text-center">
+
+                            <h4 class="card-title mb-1">
+                                Mr. Santosh Kumar
+                            </h4>
+
+                            <p class="fw-bold text-primary mb-2">
+                                ASSISTANT
+                            </p>
+
+                            <p class="mb-1">
+                                <i class="bi bi-telephone"></i> 8650
+                            </p>
+
+                            <p class="mb-0">
+                                <i class="bi bi-envelope"></i>
+                                <a href="mailto:santosh61@iitp.ac.in">
+                                    santosh61@iitp.ac.in
+                                </a>
+                            </p>
+
+                        </div>
 
                     </div>
 
                 </div>
 
             </div>
+        </div>
+    </section>
 
-            <!-- Staff 3 -->
-            <div class="col-auto">
+    <section id="resources" class="py-5">
 
-                <div class="card shadow-sm" style="width: 22rem;">
+        <div class="container">
+            <h2 class="text-center fw-bold display-5 mb-3">
+                Resources & Support
+            </h2>
 
-                    <img src="Assets/Team/Person3.png" class="card-img-top" style="height: 320px; object-fit: cover;"
-                        alt="Staff">
+            <p class="text-center text-muted mb-5">
+                Quick access to important information, support services,
+                and student resources.
+            </p>
 
-                    <div class="card-body text-center">
+            <div class="row g-4">
 
-                        <h4 class="card-title mb-1">
-                            Mr. Santosh Kumar
-                        </h4>
+                <div class="col-md-6">
+                    <a href="#" class="resource-item">
+                        📄 Scholarship Information
+                    </a>
+                </div>
 
-                        <p class="fw-bold text-primary mb-2">
-                            ASSISTANT
-                        </p>
+                <div class="col-md-6">
+                    <a href="#" class="resource-item">
+                        💬 Counselling Support
+                    </a>
+                </div>
 
-                        <p class="mb-1">
-                            <i class="bi bi-telephone"></i> 8650
-                        </p>
+                <div class="col-md-6">
+                    <a href="#" class="resource-item">
+                        📘 Student Handbook
+                    </a>
+                </div>
 
-                        <p class="mb-0">
-                            <i class="bi bi-envelope"></i>
-                            <a href="mailto:santosh61@iitp.ac.in">
-                                santosh61@iitp.ac.in
-                            </a>
-                        </p>
+                <div class="col-md-6">
+                    <a href="#" class="resource-item">
+                        👥 Student Clubs
+                    </a>
+                </div>
 
+                <div class="col-md-6">
+                    <a href="#" class="resource-item">
+                        📅 Academic Calendar
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="#" class="resource-item">
+                        📥 Download Forms
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="#" class="resource-item">
+                        🏠 Hostel Information
+                    </a>
+                </div>
+
+                <div class="col-md-6">
+                    <a href="#" class="resource-item">
+                        📞 Emergency Contacts
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+    <section id="FAQ" class="py-5 mb-0">
+
+        <div class="container">
+            <h2 class="text-center fw-bold display-5 mb-3">
+                Frequently Asked Questions
+            </h2>
+            <p class="text-center text-muted mb-5">
+                Quick answers to help students access information and services provided by the Student Affairs Office.
+            </p>
+
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            1. What services are provided by the Student Affairs Office?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The Student Affairs Office supports students through welfare
+                            initiatives, counselling services, leadership development programs, student activities,
+                            scholarships, and various support resources aimed at enhancing the overall campus
+                            experience.</div>
                     </div>
-
                 </div>
-
-            </div>
-
-        </div>
-    </section>
-
-    <section id="resources" class="container my-5">
-
-        <h2 class="text-center fw-bold display-5 mb-3">
-            Resources & Support
-        </h2>
-
-        <p class="text-center text-muted mb-5">
-            Quick access to important information, support services,
-            and student resources.
-        </p>
-
-        <div class="row g-4">
-
-            <div class="col-md-6">
-                <a href="#" class="resource-item">
-                    📄 Scholarship Information
-                </a>
-            </div>
-
-            <div class="col-md-6">
-                <a href="#" class="resource-item">
-                    💬 Counselling Support
-                </a>
-            </div>
-
-            <div class="col-md-6">
-                <a href="#" class="resource-item">
-                    📘 Student Handbook
-                </a>
-            </div>
-
-            <div class="col-md-6">
-                <a href="#" class="resource-item">
-                    👥 Student Clubs
-                </a>
-            </div>
-
-            <div class="col-md-6">
-                <a href="#" class="resource-item">
-                    📅 Academic Calendar
-                </a>
-            </div>
-
-            <div class="col-md-6">
-                <a href="#" class="resource-item">
-                    📥 Download Forms
-                </a>
-            </div>
-
-            <div class="col-md-6">
-                <a href="#" class="resource-item">
-                    🏠 Hostel Information
-                </a>
-            </div>
-
-            <div class="col-md-6">
-                <a href="#" class="resource-item">
-                    📞 Emergency Contacts
-                </a>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="FAQ" class="container my-5 mb-0">
-        <h2 class="text-center fw-bold display-5 mb-3">
-            Frequently Asked Questions
-        </h2>
-        <p class="text-center text-muted mb-5">
-            Quick answers to help students access information and services provided by the Student Affairs Office.
-        </p>
-
-        <div class="accordion accordion-flush" id="accordionFlushExample">
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                        1. What services are provided by the Student Affairs Office?
-                    </button>
-                </h2>
-                <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">The Student Affairs Office supports students through welfare
-                        initiatives, counselling services, leadership development programs, student activities,
-                        scholarships, and various support resources aimed at enhancing the overall campus
-                        experience.</div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            2. How can I apply for financial assistance or scholarships?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Students can find information regarding available scholarships,
+                            eligibility criteria, and application procedures through the Student Affairs Office.
+                            Detailed guidelines and important deadlines are published on the office website and official
+                            student communication channels.</div>
+                    </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                        2. How can I apply for financial assistance or scholarships?
-                    </button>
-                </h2>
-                <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Students can find information regarding available scholarships,
-                        eligibility criteria, and application procedures through the Student Affairs Office.
-                        Detailed guidelines and important deadlines are published on the office website and official
-                        student communication channels.</div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            3. Are counselling and mental health support services available?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Yes. The institute provides access to counselling and wellness
+                            support services to help students manage academic, personal, and emotional challenges.
+                            Students may contact the Student Affairs Office for guidance and appointment details.</div>
+                    </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
-                        3. Are counselling and mental health support services available?
-                    </button>
-                </h2>
-                <div id="flush-collapseThree" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">Yes. The institute provides access to counselling and wellness
-                        support services to help students manage academic, personal, and emotional challenges.
-                        Students may contact the Student Affairs Office for guidance and appointment details.</div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            4. What role does the Student Affairs Office play in enhancing campus life?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The office works to create a vibrant and inclusive campus
+                            environment by supporting student activities, welfare initiatives, leadership opportunities,
+                            and programs that contribute to holistic student development.</div>
+                    </div>
                 </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseOne">
-                        4. What role does the Student Affairs Office play in enhancing campus life?
-                    </button>
-                </h2>
-                <div id="flush-collapseFour" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">The office works to create a vibrant and inclusive campus
-                        environment by supporting student activities, welfare initiatives, leadership opportunities,
-                        and programs that contribute to holistic student development.</div>
-                </div>
-            </div>
-            <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseOne">
-                        5. What initiatives promote student well-being on campus?
-                    </button>
-                </h2>
-                <div id="flush-collapseFive" class="accordion-collapse collapse"
-                    data-bs-parent="#accordionFlushExample">
-                    <div class="accordion-body">The institute regularly organizes wellness programs, awareness
-                        campaigns, recreational activities, mentorship initiatives, and support services aimed at
-                        promoting the overall well-being of students.</div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFive" aria-expanded="false"
+                            aria-controls="flush-collapseOne">
+                            5. What initiatives promote student well-being on campus?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFive" class="accordion-collapse collapse"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">The institute regularly organizes wellness programs, awareness
+                            campaigns, recreational activities, mentorship initiatives, and support services aimed at
+                            promoting the overall well-being of students.</div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <footer id="contact" class="footer-section my-5 mb-0">
-        <div class="container py-5">
+
+    <footer id="contact" class="footer-section py-5 mb-0">
+        <div class="container py-0">
             <div class="row">
 
                 <div class="col-lg-4 col-md-6 mb-4">

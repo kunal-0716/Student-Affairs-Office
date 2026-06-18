@@ -9,6 +9,17 @@ section{
     scroll-margin-top: 80px;
 }
 
+#home, #responsibilities, #initiatives, #team, #FAQ {
+    background: #F8FAFC;
+    padding: 80px 0;
+}
+#about, #student_welfare, #gallery, #resources {
+    background: white;
+    padding: 80px 0;
+}
+
+
+/* navbar */
 nav{
     background-color:rgb(185, 191, 196) ;
     box-shadow: 0 2px 10px rgba(0,0,0,0.1);
@@ -21,16 +32,9 @@ nav{
     font-weight: 450;
 }
 
-#home, #responsibilities, #initiatives, #team, #FAQ {
-    background: #F8FAFC;
-    padding: 80px 0;
-}
-#about, #student_welfare, #gallery, #resources {
-    background: white;
-    padding: 80px 0;
-}
+/* ----- */
 
-
+/* home */
 #homeContent{
     margin-top: 8px;
     margin-bottom: 4px;
@@ -60,6 +64,9 @@ nav{
     border-left: 2px solid black;
 }
 
+/* ---------- */
+
+/* about */
 .focus-card{
     background:#f5f7fa;
     border-radius:30px;
@@ -119,33 +126,10 @@ nav{
     line-height:1.8;
 }
 
-.dean-card{
-    width: 26rem;
-}
 
-.staff-card{
-    width: 22rem;
-}
+/* ------------ */
 
-footer{
-    background-color: #243447;
-    color: white;
-}
-.footer-links li{
-    margin-bottom: 12px;
-}
-.footer-links a{
-    color: #9ccaff;
-    text-decoration: none;
-    transition: 0.3s;
-}
-
-.footer-links a:hover{
-    color: white;
-}
-
-
-
+/* responsibility */
 .responsibility-card{
     background: #ffffff;
     border-radius: 15px;
@@ -165,7 +149,9 @@ footer{
     margin-bottom: 0;
 }
 
+/* --------------- */
 
+/* welfare */
 .welfare-item{
     padding: 20px;
     border-radius: 12px;
@@ -183,6 +169,10 @@ footer{
     margin-right: 20px;
 }
 
+
+/* --------- */
+
+/* initiatives */
 .initiative-img{
     width: 100%;
     height: 320px;
@@ -205,6 +195,9 @@ footer{
     transform: translateY(-5px);
 }
 
+/* ----------- */
+
+/* gallery */
 .gallery-item{
     position: relative;
     overflow: hidden;
@@ -244,6 +237,20 @@ footer{
     transform: scale(1.05);
 }
 
+
+/* --------- */
+
+/* meet the team */
+.dean-card{
+    width: 26rem;
+}
+
+.staff-card{
+    width: 22rem;
+}
+/* -------- */
+
+/* resources */
 .resource-item{
     display: block;
     background: white;
@@ -262,3 +269,24 @@ footer{
     transform: translateX(8px);
     box-shadow: 0 8px 20px rgba(0,0,0,0.15);
 }
+
+/* ----------- */
+
+/* footer */
+footer{
+    background-color: #243447;
+    color: white;
+}
+.footer-links li{
+    margin-bottom: 12px;
+}
+.footer-links a{
+    color: #9ccaff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-links a:hover{
+    color: white;
+}
+/* ------------ */

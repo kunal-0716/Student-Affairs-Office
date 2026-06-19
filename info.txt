@@ -61,3 +61,43 @@ meet the team right margin 0
 
 few common changes:
 slightly change color of cards as it blends with the background
+remove hover effect from text of major Initiatives
+
+
+font-family: Montserrat, sans-serif;
+
+for:
+
+Student Affairs Office
+About Student Affairs Office
+Student Welfare
+Major Initiatives
+Campus Life
+Resources & Support
+Meet The Team
+FAQ
+
+font-family: Inter, sans-serif;
+
+for:
+
+Descriptions
+Card content
+Navbar links
+Footer content
+FAQ answers
+
+--primary-blue: #2563eb;
+--dark-heading: #1f2937;
+--paragraph: #4b5563;
+--section-bg: #f8fafc;
+
+Buttons
+
+Primary:
+
+background: #2563eb;
+
+Secondary:
+
+background: #64748b;

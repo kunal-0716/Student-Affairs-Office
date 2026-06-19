@@ -132,7 +132,7 @@ nav {
 
 /* MOBILE */
 
-@media (max-width: 768px) {
+@media (max-width: 991.98px) {
 
     #homeHeading {
         font-size: 2.4rem;
@@ -344,19 +344,26 @@ nav {
     background: #ffffff;
     border-radius: 15px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: all 0.3s ease;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     min-height: 140px;
-}
-
-.responsibility-card:hover {
-    transform: translateY(-6px);
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .responsibility-card h5 {
     font-weight: 600;
     margin-bottom: 0;
+}
+.card-link{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #2563eb;
+    font-family: 'Inter', sans-serif;
+    margin-top: 8px;
+}
+
+.responsibility-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0,0,0,0.08);
 }
 
 /* --------------- */
